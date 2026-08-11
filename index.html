@@ -8,33 +8,102 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    <title>Kajal Lakkad</title>
+    <title>Kajal Lakkad | Front-End Developer</title>
 
 </head>
 <body>
-   <header class="main">
+<nav>
+
+<div class="logo">
+Kajal Lakkad
+</div>
+
+<div class="nav-links">
+
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+
+</div>
+
+</nav>
+
+  <header class="main" id="home">
+
+    <img src="images/kajal.jpg" alt="Kajal Lakkad">
+
     <h1>Kajal Lakkad</h1>
-    <p>I am Web designer | Front-End Devloper</p>
-    <a href="#" class="btn">Download Resume</a>
+
+    <h2>Front-End Developer</h2>
+
+    <p>
+        I build responsive and user-friendly websites using HTML, CSS,
+        JavaScript, and modern web technologies. I enjoy creating clean,
+        functional, and engaging digital experiences.
+    </p>
+
+    <div class="hero-buttons">
+
+    <a href="resume.pdf" class="btn">
+        Download Resume
+    </a>
+
+    <a href="https://github.com/kajallakkad" 
+       target="_blank" 
+       class="btn secondary-btn">
+        GitHub
+    </a>
+
+    <a href="https://www.linkedin.com/feed/" 
+       target="_blank" 
+       class="btn secondary-btn">
+        LinkedIn
+    </a>
+
+</div>
 
 </header>
-    <section class="about">
-        <h2>About Me</h2>
-        <p> I build responsive website using HTML,CSS,Javascript. Dedicated and motivated individual with strong communication and organizational skills.
-        Passionate about continuous learning, professional growth, and contributing effectively
-        in a dynamic work environment.</p>
-            <div class="container">
-    <h2>Skills</h2>
-    <div class="card">
-      <span class="tag">Communication</span>
-      <span class="tag">Teamwork</span>
-      <span class="tag">Customer Service</span>
-      <span class="tag">Time Management</span>
-      <span class="tag">Problem Solving</span>
-      <span class="tag">Microsoft Office</span>
-    </div>
-  </div>
-   <div class="container">
+    <section class="about" id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a Front-End Developer focused on creating responsive, user-friendly,
+and modern websites using HTML, CSS, and JavaScript. I enjoy transforming
+ideas into clean web experiences with attention to design, functionality,
+and usability.
+
+I have experience building projects such as a Luxury Diamond Jewelry Website
+and a Weather Application using API integration and JavaScript. I am continuously
+learning new technologies and improving my skills to create better digital
+experiences.
+</p>
+
+</section>
+     <section class="container" id="skills">
+
+<h2>Skills</h2>
+
+<div class="card">
+
+<span class="tag">HTML5</span>
+<span class="tag">CSS3</span>
+<span class="tag">JavaScript</span>
+<span class="tag">JavaScript ES6</span>
+<span class="tag">DOM Manipulation</span>
+<span class="tag">API Integration</span>
+<span class="tag">Bootstrap</span>
+<span class="tag">Responsive Design</span>
+<span class="tag">Git & GitHub</span>
+<span class="tag">GitHub Pages</span>
+<span class="tag">VS Code</span>
+
+</div>
+
+</section>
+   <div class="container" id="experience">
     <h2>Experience Highlights</h2>
 
     <div class="grid">
@@ -57,29 +126,112 @@
 
          
     </section>
-    <div class="card">
-        <h3>Project 1</h3>
-        <p>Simple landing page using HTML & CSS</p>
-    </div>
-    <div class="card">
-        <h3>Project 2</h3>
-        <p>Responsive portfolio website</p>
-    </div>
-    <div class="card">
-        <h3>Project 3</h3>
-        <p>Basic JavaScript calculator</p>
+   <section class="container" id="projects">
 
-    </div>
+<h2>Projects</h2>
 
-    <div class="container">
-    <h2>Contact</h2>
-    <div class="card">
-     <p>Email:kajaldlakkad@gmail.com</p>
-        <p>GitHub:https://github.com/Kajal Lakkad</p>
-      <p>Location: Canada</p>
-    </div>
-  </div>
+<div class="grid">
 
+<div class="card">
+  <img src="images/luxury-diamond-app.png" 
+     alt="Luxury Diamond Website"
+     class="project-image">
+
+<h3>Luxury Diamond Jewelry Website</h3>
+
+<p>
+A responsive website designed for a diamond jewelry brand.
+Built using HTML5 and CSS3 with a modern luxury design,
+product showcase, and mobile-friendly layout.
+</p>
+
+<a href="https://kajallakkad.github.io/luxury-diamond-website/" target="_blank">Live Demo</a>
+
+<a href="https://github.com/kajallakkad/luxury-diamond-website/" target="_blank">GitHub</a>
+
+</div>
+
+
+<div class="card">
+
+<img src="images/weather-app.png" 
+     alt="Weather App"
+     class="project-image">
+
+<h3>Weather App</h3>
+
+<p>
+A responsive weather application built using HTML, CSS, and JavaScript.
+Integrated OpenWeather API to display real-time weather information.
+</p>
+
+<a href="https://kajallakkad.github.io/weather-app/" target="_blank">
+Live Demo
+</a>
+
+<a href="https://github.com/kajallakkad/weather-app" target="_blank">
+GitHub
+</a>
+
+</div>
+
+<div class="card">
+
+<h3>Portfolio Website</h3>
+
+<p>
+Personal portfolio website built using HTML and CSS.
+Designed to showcase skills, projects, and professional profile.
+</p>
+
+<a href="#" target="_blank">View Project</a>
+
+</div>
+
+</div>
+
+</section>
+
+   <<section class="container" id="contact">
+
+<h2>Contact</h2>
+
+<div class="card contact-card">
+
+<p>
+📧 Email:
+<br>
+<a href="mailto:kajaldlakkad@gmail.com">
+kajaldlakkad@gmail.com
+</a>
+</p>
+
+<p>
+💻 GitHub:
+<br>
+<a href="https://github.com/kajallakkad" target="_blank">
+github.com/kajallakkad
+</a>
+</p>
+
+<p>
+💼 LinkedIn:
+<br>
+<a href="https://www.linkedin.com/in/kajal-lakkad-3b5590262/" 
+target="_blank">
+linkedin.com/in/kajal-lakkad
+</a>
+</p>
+
+<p>
+📍 Location:
+<br>
+Canada
+</p>
+
+</div>
+
+</section>
   <footer>
     © 2026 Kajal Lakkad | Portfolio
   </footer>
